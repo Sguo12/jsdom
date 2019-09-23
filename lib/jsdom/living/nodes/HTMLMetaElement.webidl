@@ -2,6 +2,7 @@
  HTMLConstructor]
 interface HTMLMetaElement : HTMLElement {
   [CEReactions, Reflect] attribute DOMString name;
+  [CEReactions, Reflect] attribute DOMString property;
   [CEReactions, Reflect=http_equiv] attribute DOMString httpEquiv;
   [CEReactions, Reflect] attribute DOMString content;
 
